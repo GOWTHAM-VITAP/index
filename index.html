@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            margin: none;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            border: 2px solid black;
+            border-radius: 10%;
+            padding: none;
+            background-image: url(img.jpg);
+            color: white;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .button {
+            font-size: 25px;
+            background-color: rgb(188, 170, 170);
+            color: white;
+            border: 10px;
+            outline: none;
+            border-radius: 40px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .hover-button:hover {
+            background-color: #dd6767; /* Darker green background on hover */
+            color: #fff; /* White text color on hover */
+            transform: scale(1.05); /* Slightly enlarge button on hover */
+        }
+
+        .us {
+            font-size: large;
+        }
+
+        .pw {
+            font-size: large;
+        }
+
+        
+    </style>
+    
+</head>
+<body>
+    <u><h1 >Login</h1></u>
+    <h2><u><label for="username" class="us">Username:-</label></u></h2>
+    <input type="text" class="us" placeholder="Enter your Username" id="username" name="username"><br>
+    
+    <h2><u><label for="password" class="pw">Password:-</label></u></h2>
+    <input type="password" class="pw" placeholder="Enter your password" id="password" name="password"><br>
+    
+    <a class="hover-button" class="button" href="port.html">Login</a> 
+    <button class="hover-button" onclick="window.location.href='port.html'">Login</button>  
+</body>
+</html>
