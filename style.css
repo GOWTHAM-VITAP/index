@@ -98,7 +98,7 @@ nav a.active{
     
 }
 
-section{
+main{
     min-height: 100vh;
     padding: 5rem 9% 5rem;
 }
@@ -192,6 +192,24 @@ span{
     font-size: clamp(4rem, 3rem + 5vw, 2.5rem);
     font-weight: 1000;
 }
+section {
+    height: 100vh;
+}
+
+#games {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.gm {
+    background-color: red;
+    border: 1px dotted black;
+    border-radius: 50%;
+    font-size: 30px;
+    color: black;
+}
+
+
 
 
     
